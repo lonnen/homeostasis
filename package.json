@@ -1,0 +1,22 @@
+{
+  "name": "homeostasis",
+  "version": "0.0.0",
+  "description": "a Mozilla client change detector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lonnen/homeostasis.git"
+  },
+  "author": "Mozilla",
+  "license": "MPLv2",
+  "bugs": {
+    "url": "https://github.com/lonnen/homeostasis/issues"
+  },
+  "dependencies": {
+    "promisesaplus": "~1.0.1"
+  }
+}
