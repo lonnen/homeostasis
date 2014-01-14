@@ -1,2 +1,2 @@
-var core = require('./lib/core');
-core.start();
+var server = require('./lib/server');
+server.start();

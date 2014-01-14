@@ -17,6 +17,7 @@
     "url": "https://github.com/lonnen/homeostasis/issues"
   },
   "dependencies": {
-    "promisesaplus": "~1.0.1"
+    "express": "3.4.8",
+    "es6-promise": "0.1.1"
   }
 }
