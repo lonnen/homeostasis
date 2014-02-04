@@ -1,16 +1,15 @@
-/* Description:
-* logs the message
-*
-* Dependencies:
-* None
-*
-* Author:
-* lonnen
-*/
+/* logs the message. useful for debugging. returns the expected object format
+ * even though this produces no material info for end users.
+ *
+ */
 
 module.exports = function(core) {
-  core.on('msg', function(content, promise) {
+  core.onMessage(function(content) {
     console.log(content);
-    promise.fulfill(content);
+    return {
+      'result': 0,
+      'warnings': {},
+      'highlights': {}
+    };
   });
 };
